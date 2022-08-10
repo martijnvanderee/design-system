@@ -1,11 +1,9 @@
 import React from "react";
 
-import { Text} from '@chakra-ui/react'
+import { Text as TextChakra} from '@chakra-ui/react'
 
-
-
-const Button = () => {
-  return <Text fontSize='6xl'>(6xl) In love with React & Next</Text>
+const Text = () => {
+  return <TextChakra fontSize='6xl'>(6xl) In love with React & Next</TextChakra>
 };
 
-export default Button;
+export default Text;
